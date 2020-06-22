@@ -2,7 +2,7 @@
  * @Author: QLJ
  * @Date: 2020-06-18 16:18:30
  * @LastEditors: QLJ
- * @LastEditTime: 2020-06-22 10:11:41
+ * @LastEditTime: 2020-06-22 10:17:02
  * @FilePath: \BigNews\admin\js\login.js
  */
 $(function () {
@@ -34,7 +34,7 @@ $(function () {
           $('#myModal').on('hidden.bs.modal', function (e) {
             // 跳转之前进行token存储
             localStorage.setItem('BigNewToken', response.token)
-            location.href = 'index.html'
+            location.href = './index.html'
           })
         } else {
           $('#myModal').modal('show')
