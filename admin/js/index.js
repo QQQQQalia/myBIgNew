@@ -2,7 +2,7 @@
  * @Author: QLJ
  * @Date: 2020-06-18 16:18:30
  * @LastEditors: QLJ
- * @LastEditTime: 2020-06-23 16:38:33
+ * @LastEditTime: 2020-06-23 16:56:29
  * @FilePath: \BigNews\admin\js\index.js
  */
 $(function () {
@@ -52,7 +52,7 @@ $(function () {
   $('.level02>li').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active')
   });
-
+  // Test
   // 退出按钮 去除token 返回登录界面
   $('.logout').on('click', function () {
     localStorage.removeItem('BigNewToken')
